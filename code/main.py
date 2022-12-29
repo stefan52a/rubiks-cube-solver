@@ -100,7 +100,7 @@ class App:
         This method acts as a front-end to input the commands and interact with the cube.
         :return: None.
         """
-        intro = """Please insert a face to move (f, t, d, r, l, b) or type 'r' to reset or 'h' for help:\n"""
+        intro = """Please insert a face to move (f, t, d, r, l, b) followed by a number or type 'r' to reset or 'h' for help:\n"""
         inpt = input(intro)
         check = self.drive.check_for_moves(inpt)
 
